@@ -8,7 +8,7 @@ const Nav = () => {
     {
       id: 1,
       name: "HOME",
-      base: "/",
+      base: "/#",
     },
     {
       id: 2,
