@@ -23,7 +23,7 @@ const Nav = () => {
     <nav className="flex items-center fixed w-full justify-between border-b-2 bg-white">
       <div className="w-[90px] h-[90px] bg-white">
         <Image
-          src="/cyberrose.png"
+          src="/cr.png"
           className="p-1 rounded-full"
           width={90}
           height={90}
