@@ -18,6 +18,7 @@ const Nav = () => {
     {
       id: 3,
       name: "ROADMAP",
+      base: "/#team",
     },
   ];
   return (

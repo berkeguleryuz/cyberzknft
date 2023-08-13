@@ -5,7 +5,7 @@ type Props = {}
 
 const Roadmap = (props: Props) => {
   return (
-    <div className="flex justify-around mt-10 gap-5">
+    <div id="#roadmap" className="flex justify-around mt-10 gap-5">
         <Image
             alt='Roadmap'
             src='/cyberr1.png'
