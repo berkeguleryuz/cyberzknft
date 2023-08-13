@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Nav = () => {
@@ -21,14 +22,16 @@ const Nav = () => {
   ];
   return (
     <nav className="flex items-center fixed w-full justify-between border-b-2 bg-white">
-      <div className="w-[90px] h-[90px] bg-white">
-        <Image
-          src="/cr.png"
-          className="p-1 rounded-full"
-          width={90}
-          height={90}
-          alt="Logo"
-        />
+      <div className="w-[90px] h-[90px] bg-white cursor-pointer">
+        <Link href="/">
+          <Image
+            src="/cr.png"
+            className="p-1 rounded-full"
+            width={90}
+            height={90}
+            alt="Logo"
+          />
+        </Link>
       </div>
       <div className="hidden md:flex gap-14">
         {menu.map((item, index) => (
