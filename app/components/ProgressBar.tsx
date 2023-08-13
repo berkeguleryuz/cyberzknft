@@ -22,7 +22,7 @@ function ProgressBar() {
         setScrollTop(scrolled)
     }
   return (
-    <div className='w-1.5 bg-gray-200 fixed ml-[-5px] h-full mb-4'>
+    <div className='w-1.5 bg-white fixed ml-[-3px] h-full mb-4'>
         <div className='bg-gray-600 transition-all ease-out duration-1000' style={{height:`${scrollTop}%`}} />
     </div>
   )
