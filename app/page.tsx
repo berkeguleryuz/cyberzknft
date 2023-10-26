@@ -9,18 +9,18 @@ import ProgressBar from "./components/ProgressBar";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full">
       <Nav />
       <Sidebar />
       <div className="ml-[90px] grid grid-cols-1 md:grid-cols-3">
-        <div className="col-span-2 p-5 mt-[90px]">
+        <div className="col-span-2 p-5 mt-[90px] ">
           <Introduction />
           <Detail />
           <Team />
           <h2 className='mt-10 text-center items-center  justify-center font-bold text-2xl'>Roadmap soon.</h2>
           <Roadmap />
         </div>
-        <div className="hidden md:block fixed right-0 w-[555px] mt-[92px]">
+        <div className="hidden xl:block fixed right-0 w-[555px] mt-[92px]">
           <ProgressBar />
           <ProfilePic/>
         </div>
