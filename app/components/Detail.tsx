@@ -5,7 +5,7 @@ import { FiArrowDown, FiArrowUp } from "react-icons/fi";
 
 const Detail = () => {
   return (
-    <div className="mt-12 mr-24 px-44 text-center flex flex-col items-center grid-cols-1 ">
+    <div className="mt-12 lg:mr-24 lg:px-44 text-center flex flex-col items-center grid-cols-1">
 
       <h2 className="items-center justify-center self-center text-[20px] font-semibold">{Details.ABOUT_HEADER}.</h2>
       <FiArrowDown className="bg-gray-900 p-3 md:text-2xl sm:text-3xl lg:text-[44px] justify-center self-center rounded-full text-white mt-6" />

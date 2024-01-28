@@ -8,7 +8,7 @@ const Roadmap = (props: Props) => {
     <div id="#roadmap" className="flex justify-around mt-10 gap-5">
         <Image
             alt='Roadmap'
-            src='/cyberr1.png'
+            src='/CyberZK.png'
             width={700}
             height={700}
             className="p-1 transition-all rounded-3xl"

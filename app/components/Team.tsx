@@ -36,14 +36,14 @@ const Team = (props: Props) => {
         <div className="w-full border-[1px] mt-[-2px] mx-4"></div>
         <div className="w-[20px] h-[7px] bg-gray-600 rounded-full"></div>
       </div>
-      <div className="flex justify-around mt-10 gap-5   ">
+      <div className="grid md:grid-cols-4 lg:grid-cols-2 justify-around mt-10 gap-5">
         {teamlist.map((item, index) => (
           <div
             className="text-center flex flex-col justify-center items-center
                 gap-6"
                 key={index}
           >
-            <div className="bg-gray-200 rounded-full">
+            <div className="bg-gray-200 rounded-full flex-1">
               <Image
                 src={item.logo}
                 alt="Avatar"

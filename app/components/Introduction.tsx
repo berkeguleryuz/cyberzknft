@@ -8,7 +8,7 @@ function Introduction() {
       <div className="w-[5px] h-[5px] bg-black rounded-full"></div>
       <h2 className="justify center items-center mt-5 text-black font-medium text-[13px] tracking-widest">HELLO! WE ARE</h2>
       <h3 className="justify center items-center text-[70px] font-bold text-black tracking-widest mt-5">CYBER</h3>
-      <h3 className="justify center items-center text-[70px] font-bold text-black tracking-widest mt-0">ROSE</h3>
+      <h3 className="justify center items-center text-[70px] font-bold text-black tracking-widest mt-0">ZK</h3>
       <Image 
         src="/bg.jpeg" 
         className="bg-gray-200 p-3 rounded-full"
